@@ -1,0 +1,11 @@
+curl -X POST http://localhost:3000/generate/generate  
+curl http://localhost:3000/generate/generated-id
+
+redis-cli
+KEYS *
+GET generated-id
+TTL generated-id
+quit
+
+npm run start / npm run start:dev
+npm i 
