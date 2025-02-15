@@ -1,7 +1,5 @@
 node_modules/
 dist/
-package-lock.json
-.env              
-*.log           
-.idea/         
+package-lock.json            
+*.log                  
 .vscode/
